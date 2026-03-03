@@ -448,7 +448,7 @@ def final_message(call):
 if __name__ == "__main__":
     # Устанавливаем вебхук
     port = int(os.environ.get('PORT', 10000))
-    webhook_url = f"https://antistress-bot-1.onrender.com" 
+    webhook_url = f"https://antistress-bot-1.onrender.com/webhook" 
     
     print(f"🔗 Устанавливаю вебхук на: {webhook_url}")
     bot.remove_webhook()
